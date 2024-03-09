@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="홈"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/bottom_calender"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="다이어리"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/bottom_food"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_food_bank_24"
+        android:title="칼로리 계산"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/bottom_exercise"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_directions_run_24"
+        android:title="운동하기"
+        app:showAsAction="always"/>
+</menu>

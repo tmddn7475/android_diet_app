@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ExerciseDetailActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/exercise_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/include" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="25dp"
+                android:text="운동 이름" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:background="@color/blue_dark" />
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textSize="25dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="3dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="25dp"
+                android:text="운동 부위" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:background="@color/blue_dark" />
+
+            <TextView
+                android:id="@+id/text_part"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="part"
+                android:textSize="25dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="3dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="25dp"
+                android:text="운동 방법" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:background="@color/blue_dark" />
+
+            <TextView
+                android:id="@+id/exercise_step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="step1"
+                android:textSize="18dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="22dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="3dp" />
+            <TextView
+                android:id="@+id/exercise_step2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="step2"
+                android:textSize="18dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="3dp" />
+            <TextView
+                android:id="@+id/exercise_step3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="step3"
+                android:textSize="18dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="3dp"/>
+            <TextView
+                android:id="@+id/exercise_step4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="step4"
+                android:textSize="18dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="3dp"/>
+            <TextView
+                android:id="@+id/exercise_step5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="step5"
+                android:textSize="18dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="3dp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

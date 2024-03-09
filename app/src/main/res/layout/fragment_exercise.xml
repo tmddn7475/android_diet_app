@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ExerciseFragment">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_exercise"
+        app:queryHint="검색어를 입력하세요"
+        app:iconifiedByDefault="false"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="textPersonName" />
+
+    <ListView
+        android:id="@+id/list_exercise"
+        android:layout_marginTop="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</FrameLayout>

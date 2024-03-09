@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <Preference
+            android:key="chart_reset"
+            android:summary="차트 데이터를 초기화합니다"
+            app:title="차트 초기화" />
+
+        <Preference
+            android:key="version"
+            android:summary="v1.0_final"
+            app:title="앱 버전" />
+
+</PreferenceScreen>

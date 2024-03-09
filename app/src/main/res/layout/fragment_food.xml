@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.FoodFragment">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_food"
+        app:queryHint="검색어를 입력하세요"
+        app:iconifiedByDefault="false"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="textPersonName" />
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_marginTop="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</FrameLayout>

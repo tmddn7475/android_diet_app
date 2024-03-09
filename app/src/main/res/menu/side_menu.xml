@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="회원"
+            android:checkableBehavior="single">
+            <menu>
+                <item android:id="@+id/side_account"
+                    android:icon="@drawable/ic_baseline_account_circle_24"
+                    android:title="회원 정보 확인"/>
+                <item android:id="@+id/side_logout"
+                    android:icon="@drawable/ic_baseline_arrow_back_24"
+                    android:title="로그아웃"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/side_calender"
+            android:enabled="true"
+            android:icon="@drawable/ic_baseline_calendar_today_24"
+            android:title="다이어리" />
+        <item
+            android:id="@+id/side_food"
+            android:enabled="true"
+            android:icon="@drawable/ic_baseline_food_bank_24"
+            android:title="영양소 성분"/>
+        <item
+            android:id="@+id/side_exercise"
+            android:enabled="true"
+            android:icon="@drawable/ic_baseline_directions_run_24"
+            android:title="부위별 헬스"/>
+
+        <item android:id="@+id/side_goal"
+            android:icon="@drawable/ic_baseline_border_color_24"
+            android:title="목표 설정"/>
+        <item android:id="@+id/side_chart"
+            android:icon="@drawable/ic_baseline_show_chart_24"
+            android:title="차트 입력"/>
+        <item
+            android:id="@+id/side_setting"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="설정"/>
+    </group>
+
+</menu>
